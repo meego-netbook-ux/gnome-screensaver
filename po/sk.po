@@ -128,7 +128,6 @@ msgid "Set this to TRUE to lock the screen when the screensaver goes active."
 msgstr "Nastavte toto na TRUE, ak sa má pri aktivovaní šetriča obrazovky uzamknúť obrazovka."
 
 #: ../data/gnome-screensaver.schemas.in.h:15
-#, fuzzy
 msgid "Set this to TRUE to offer an option in the unlock dialog to allow logging out after a delay. The delay is specified in the \"logout_delay\" key."
 msgstr "Nastavte toto na TRUE, aby sa ponúkala možnosť odhlásenia po vypršaní lehoty v odomykacom dialógovom okne. Dĺžka trvania lehoty sa nastavuje v kľúči \"logout_delay\"."
 
@@ -149,7 +148,6 @@ msgid "The number of minutes after screensaver activation before locking the scr
 msgstr "Počet minút od aktivácie šetriča obrazovky po zamknutie obrazovky."
 
 #: ../data/gnome-screensaver.schemas.in.h:20
-#, fuzzy
 msgid "The number of minutes after the screensaver activation before a logout option will appear in the unlock dialog. This key has effect only if the \"logout_enable\" key is set to TRUE."
 msgstr "Počet minút od aktivácii šetriča obrazovky po zobrazenie možnosti odhlásenia v odomykacom dialógovom okne. Tento kľúč je účinný iba ak je kľúč \"logout_enable\" nastavený na TRUE."
 
@@ -162,7 +160,6 @@ msgid "The number of minutes to run before changing the screensaver theme."
 msgstr "Počet minút behu, kým sa zmení téma šetriča obrazovky."
 
 #: ../data/gnome-screensaver.schemas.in.h:23
-#, fuzzy
 msgid "The number of seconds of inactivity before signalling to power management. This key is set and maintained by the session power management agent."
 msgstr "Počet sekúnd nečinnosti, kým sa odošle signál správe napájania. Tento kľúč nastavuje agent správy napájania relácie."
 
@@ -191,7 +188,6 @@ msgid "Time before logout option"
 msgstr "Čas pred možnosťou odhlásenia"
 
 #: ../data/gnome-screensaver.schemas.in.h:30
-#, fuzzy
 msgid "Time before power management baseline"
 msgstr "Čas pred základom správy napájania"
 
@@ -296,7 +292,6 @@ msgstr "Zdrojový obrázok, ktorý použiť"
 #. * represents a command line argument
 #. 
 #: ../savers/floaters.c:1198
-#, fuzzy
 msgid "image — floats images around the screen"
 msgstr "image - obrázky plávajú po obrazovke"
 
