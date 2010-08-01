@@ -193,7 +193,6 @@ msgid "Time before logout option"
 msgstr "Tempo antes da opção de encerramento de sessão"
 
 #: ../data/gnome-screensaver.schemas.in.h:30
-#, fuzzy
 msgid "Time before power management baseline"
 msgstr "Tempo antes da referência do gerenciador de energia"
 
