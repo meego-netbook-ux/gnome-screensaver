@@ -46,7 +46,6 @@ msgid "Screensaver Preview"
 msgstr "Previsualització de l'estalvi de pantalla"
 
 #: ../data/gnome-screensaver-preferences.ui.h:5
-#, fuzzy
 msgid "Screensaver preview"
 msgstr "Previsualització de l'estalvi de pantalla"
 
@@ -192,9 +191,8 @@ msgid "Time before logout option"
 msgstr "Temps abans de l'opció de sortida"
 
 #: ../data/gnome-screensaver.schemas.in.h:30
-#, fuzzy
 msgid "Time before power management baseline"
-msgstr "Temps abans de la línia base del gestor d'energia"
+msgstr "Temps abans d'iniciar el gestor d'energia"
 
 #: ../data/gnome-screensaver.schemas.in.h:31
 msgid "Time before session is considered idle"
@@ -297,7 +295,6 @@ msgstr "La imatge que s'utilitzarà"
 #. * represents a command line argument
 #. 
 #: ../savers/floaters.c:1198
-#, fuzzy
 msgid "image — floats images around the screen"
 msgstr "image - fa flotar imatges per la pantalla"
 
