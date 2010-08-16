@@ -297,6 +297,7 @@ msgstr "待使用的源图片"
 #. * represents a command line argument
 #. 
 #: ../savers/floaters.c:1198
+#, fuzzy
 msgid "image — floats images around the screen"
 msgstr "image - 在屏幕上漂浮的图片"
 
