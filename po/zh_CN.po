@@ -504,22 +504,18 @@ msgid "Password unchanged"
 msgstr "密码未改变"
 
 #: ../src/gnome-screensaver-dialog.c:193
-#, fuzzy
 msgid "Cannot get username"
 msgstr "无法获取用户名"
 
 #: ../src/gnome-screensaver-dialog.c:194
-#, fuzzy
 msgid "Retype new Unix password:"
-msgstr "重新输入新 UNIX 密码："
+msgstr "请重新输入新 UNIX 密码："
 
 #: ../src/gnome-screensaver-dialog.c:195
-#, fuzzy
 msgid "Enter new Unix password:"
-msgstr "输入新 UNIX 密码："
+msgstr "请输入新的 UNIX 密码："
 
 #: ../src/gnome-screensaver-dialog.c:196
-#, fuzzy
 msgid "(current) Unix password:"
 msgstr "当前 UNIX 密码："
 
