@@ -617,7 +617,7 @@ msgstr "Не удалось загрузить основной интерфей
 
 #: ../src/gnome-screensaver-preferences.c:1469
 msgid "Please make sure that the screensaver is properly installed"
-msgstr "Убедитесь, что хранитель экрана установлен должным образом"
+msgstr "Пожалуйста, убедитесь, что заставка установлена правильно"
 
 #: ../src/gnome-screensaver.c:57
 msgid "Don't become a daemon"
@@ -664,7 +664,7 @@ msgstr "не подключен к шине сообщений"
 
 #: ../src/gs-listener-dbus.c:1931
 msgid "screensaver already running in this session"
-msgstr "хранитель экрана уже запущен в этом сеансе"
+msgstr "заставка уже запущена в этом сеансе"
 
 #: ../src/gs-lock-plug.c:256
 msgid "Time has expired."
