@@ -204,7 +204,7 @@ msgstr "Интервал изменения темы"
 
 #: ../data/lock-dialog-default.ui.h:1
 msgid "_Cancel"
-msgstr "О_тмена"
+msgstr "Отмена"
 
 #: ../data/lock-dialog-default.ui.h:2
 msgid "_Log Out"
@@ -212,7 +212,7 @@ msgstr "Завершить _сеанс"
 
 #: ../data/lock-dialog-default.ui.h:3
 msgid "_Switch User"
-msgstr "Пе_реключить пользователя"
+msgstr "Переключить пользователя"
 
 #: ../data/lock-dialog-default.ui.h:4 ../src/gs-lock-plug.c:1290
 msgid "_Unlock"
