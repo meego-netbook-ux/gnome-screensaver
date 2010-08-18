@@ -347,12 +347,12 @@ msgstr "Копирование тем"
 
 #: ../src/copy-theme-dialog.c:298
 msgid "Invalid screensaver theme"
-msgstr "Неверная тема хранителя экрана"
+msgstr "Неверная тема заставки"
 
 #: ../src/copy-theme-dialog.c:301
 #, c-format
 msgid "%s does not appear to be a valid screensaver theme."
-msgstr "Файл %s не похож на файл темы хранителя экрана."
+msgstr "Файл %s не похож на файл темы заставки."
 
 #: ../src/copy-theme-dialog.c:481
 #, c-format
@@ -361,15 +361,15 @@ msgstr "Копируется файл: %u из %u"
 
 #: ../src/gnome-screensaver-command.c:62
 msgid "Causes the screensaver to exit gracefully"
-msgstr "Приводит к корректному завершению работы хранителя экрана"
+msgstr "Приводит к корректному завершению работы заставки"
 
 #: ../src/gnome-screensaver-command.c:64
 msgid "Query the state of the screensaver"
-msgstr "Запрашивает состояние хранителя экрана"
+msgstr "Запрашивает состояние заставки"
 
 #: ../src/gnome-screensaver-command.c:66
 msgid "Query the length of time the screensaver has been active"
-msgstr "Запрашивает промежуток времени, в течение которого работал хранитель экрана"
+msgstr "Запрашивает промежуток времени, в течение которого работала заставка"
 
 #: ../src/gnome-screensaver-command.c:68
 msgid "Tells the running screensaver process to lock the screen immediately"
