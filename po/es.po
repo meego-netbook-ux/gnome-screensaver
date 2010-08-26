@@ -406,14 +406,14 @@ msgid "Version of this application"
 msgstr "Versión de esta aplicación"
 
 #: ../src/gnome-screensaver-command.c:295
-#, fuzzy, c-format
+#, c-format
 msgid "The screensaver is active\n"
-msgstr "El salvapantallas es %s\n"
+msgstr "El salvapantallas está activado\n"
 
 #: ../src/gnome-screensaver-command.c:295
-#, fuzzy, c-format
+#, c-format
 msgid "The screensaver is inactive\n"
-msgstr "El salvapantallas es %s\n"
+msgstr "El salvapantallas está desactivado\n"
 
 #: ../src/gnome-screensaver-command.c:309
 #, c-format
@@ -665,9 +665,8 @@ msgid "You have the Caps Lock key on."
 msgstr "Tiene la tecla «Bloq. Mayúsculas» pulsada."
 
 #: ../src/gs-lock-plug.c:1270
-#, fuzzy
 msgid "S_witch User…"
-msgstr "_Cambiar de usuario"
+msgstr "_Cambiar de usuario..."
 
 #: ../src/gs-lock-plug.c:1279
 msgid "Log _Out"
