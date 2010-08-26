@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Totem\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-25 16:00+0000\n"
-"PO-Revision-Date: 2010-08-25 17:37-0800\n"
+"PO-Revision-Date: 2010-08-26 13:22-0800\n"
 "Last-Translator: GLS_NLD <albert.dijkstra@ptiglobal.net>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -206,7 +206,6 @@ msgstr "Tijd voor afmeldoptie"
 # Wat is dit? (Wouter Bolsterlee)
 # Good question. What is this? Let engineering provide an exp;anation what is meant with source string "time before" Cannot verify correctness of translation. (Albert Dijkstra)
 #: ../data/gnome-screensaver.schemas.in.h:30
-#, fuzzy
 msgid "Time before power management baseline"
 msgstr "Tijd voor energiebeheer-baseline"
 
