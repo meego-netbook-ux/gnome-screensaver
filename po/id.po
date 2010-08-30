@@ -121,7 +121,7 @@ msgstr "Buat menjadi TRUE untuk mengaktifkan screensaver ketika sesi lagi ngangg
 
 #: ../data/gnome-screensaver.schemas.in.h:13
 msgid "Set this to TRUE to allow embedding a keyboard into the window when trying to unlock. The \"keyboard_command\" key must be set with the appropriate command."
-msgstr ""
+msgstr "Isi dengan TRUE untuk mengijinkan penempelan suatu papan tik ke dalam jendela ketika mencoba membuka kunci. Kunci \"keyboard_command\" mesti diisi dengan perintah yang sesuai."
 
 #: ../data/gnome-screensaver.schemas.in.h:14
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
@@ -137,7 +137,7 @@ msgstr "Buat menjadi TRUE untuk menawarkan pilihan pada dialog buka kunci untuk 
 
 #: ../data/gnome-screensaver.schemas.in.h:17
 msgid "The command that will be run, if the \"embedded_keyboard_enabled\" key is set to TRUE, to embed a keyboard widget into the window. This command should implement an XEMBED plug interface and output a window XID on the standard output."
-msgstr ""
+msgstr "Perintah yang akan dijalankan, bila kunci \"embedded_keyboard_enabled\" diisi TRUE, untuk menempelkan widget papan tik ke dalam jendela. Perintah ini mesti mengimplementasi suatu antarmuka plug XEMBED dan mengeluarkan suatu XID jendela ke keluaran standar. "
 
 #: ../data/gnome-screensaver.schemas.in.h:18
 msgid "The command to invoke when the logout button is clicked. This command should simply log the user out without any interaction. This key has effect only if the \"logout_enable\" key is set to TRUE."
@@ -148,7 +148,6 @@ msgid "The number of minutes after screensaver activation before locking the scr
 msgstr "Berapa menit setelah aktifasi screensaver sebelum mengunci layar."
 
 #: ../data/gnome-screensaver.schemas.in.h:20
-#, fuzzy
 msgid "The number of minutes after the screensaver activation before a logout option will appear in the unlock dialog. This key has effect only if the \"logout_enable\" key is set to TRUE."
 msgstr "Berapa menit setelah aktifasi screensaver sebelum pilihan logout muncul di dialog buka kunci. Kunci ini hanya berlaku jika kunci \"logout_ebable\" dibuat menjadi TRUE."
 
@@ -162,7 +161,7 @@ msgstr "Berapa menit untuk berjalan sebelum mengganti tema screensaver."
 
 #: ../data/gnome-screensaver.schemas.in.h:23
 msgid "The number of seconds of inactivity before signalling to power management. This key is set and maintained by the session power management agent."
-msgstr ""
+msgstr "Berapa detik tanpa aktivitas sebelum mengirim sinyal ke manajemen daya. Kunci ini ditata dan dipelihara oleh agen manajemen daya sesi."
 
 #: ../data/gnome-screensaver.schemas.in.h:24
 msgid "The selection mode used by screensaver. May be \"blank-only\" to enable the screensaver without using any theme on activation, \"single\" to enable screensaver using only one theme on activation (specified in \"themes\" key), and \"random\" to enable the screensaver using a random theme on activation."
@@ -258,9 +257,8 @@ msgid "%s. See --help for usage information.\n"
 msgstr "%s. Lihat --help untuk informasi penggunaan.\n"
 
 #: ../savers/floaters.c:88
-#, fuzzy
 msgid "Show paths that images follow"
-msgstr "tampilkan lokasi gambar"
+msgstr "Tampilkan path yang diikuti oleh gambar"
 
 #: ../savers/floaters.c:91
 msgid "Occasionally rotate images as they move"
