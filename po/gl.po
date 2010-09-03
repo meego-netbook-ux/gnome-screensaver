@@ -2,8 +2,8 @@
 # translation of gnome-screensaver.gl.po to
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2005.
-#
-#
+# 
+# 
 # Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
 # Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2007, 2008.
 # Fran Diéguez <fran.dieguez@mabishu.com>, 2009.
@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-screensaver.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-22 16:27+0200\n"
+"POT-Creation-Date: 2010-09-01 18:00+0000\n"
 "PO-Revision-Date: 2009-08-21 08:51+0200\n"
 "Last-Translator: Antón Méixome <meixome@mancomun.org>\n"
 "Language-Team: Galician <gnome@mancomun.org>\n"
@@ -99,11 +99,8 @@ msgid "Allow the session status message to be displayed"
 msgstr "Permitir que se mostre a mensaxe de estado da sesión"
 
 #: ../data/gnome-screensaver.schemas.in.h:5
-msgid ""
-"Allow the session status message to be displayed when the screen is locked."
-msgstr ""
-"Permitir que se mostre a mensaxe de estado da sesión cando a pantalla está "
-"bloqueada."
+msgid "Allow the session status message to be displayed when the screen is locked."
+msgstr "Permitir que se mostre a mensaxe de estado da sesión cando a pantalla está bloqueada."
 
 #: ../data/gnome-screensaver.schemas.in.h:6
 msgid "Allow user switching"
@@ -127,117 +124,55 @@ msgstr "Modo de selección do tema do protector de pantalla"
 
 #: ../data/gnome-screensaver.schemas.in.h:12
 msgid "Set this to TRUE to activate the screensaver when the session is idle."
-msgstr ""
-"Definir isto como TRUE para activar o protector de pantalla cando a sesión "
-"estea inactiva."
+msgstr "Definir isto como TRUE para activar o protector de pantalla cando a sesión estea inactiva."
 
 #: ../data/gnome-screensaver.schemas.in.h:13
-msgid ""
-"Set this to TRUE to allow embedding a keyboard into the window when trying "
-"to unlock. The \"keyboard_command\" key must be set with the appropriate "
-"command."
-msgstr ""
-"Definir isto como TRUE para permitir a incorporación dun teclado na xanela "
-"ao tentar desbloquear. A chave \"keyboard_command\" debe definirse coa orde "
-"apropiada."
+msgid "Set this to TRUE to allow embedding a keyboard into the window when trying to unlock. The \"keyboard_command\" key must be set with the appropriate command."
+msgstr "Definir isto como TRUE para permitir a incorporación dun teclado na xanela ao tentar desbloquear. A chave \"keyboard_command\" debe definirse coa orde apropiada."
 
 #: ../data/gnome-screensaver.schemas.in.h:14
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
-msgstr ""
-"Defina isto como TRUE para bloquear a pantalla cando se activa o protector "
-"de pantalla."
+msgstr "Defina isto como TRUE para bloquear a pantalla cando se activa o protector de pantalla."
 
 #: ../data/gnome-screensaver.schemas.in.h:15
-msgid ""
-"Set this to TRUE to offer an option in the unlock dialog to switch to a "
-"different user account."
-msgstr ""
-"Defina isto como TRUE para ofrecer unha opción no diálogo de desbloqueo para "
-"cambiar a unha conta de usuario diferente."
+msgid "Set this to TRUE to offer an option in the unlock dialog to switch to a different user account."
+msgstr "Defina isto como TRUE para ofrecer unha opción no diálogo de desbloqueo para cambiar a unha conta de usuario diferente."
 
 #: ../data/gnome-screensaver.schemas.in.h:16
-msgid ""
-"Set this to TRUE to offer an option in unlock dialog to logging out after a "
-"delay. The Delay is specified in the \"logout_delay\" key."
-msgstr ""
-"Definir isto como TRUE para ofrecer unha opción no diálogo de desbloqueo "
-"para terminar a sesión tras un intervalo de tempo. O atraso especifícase na "
-"chave \"logout_delay\"."
+msgid "Set this to TRUE to offer an option in unlock dialog to logging out after a delay. The Delay is specified in the \"logout_delay\" key."
+msgstr "Definir isto como TRUE para ofrecer unha opción no diálogo de desbloqueo para terminar a sesión tras un intervalo de tempo. O atraso especifícase na chave \"logout_delay\"."
 
 #: ../data/gnome-screensaver.schemas.in.h:17
-msgid ""
-"The command that will be run, if the \"embedded_keyboard_enabled\" key is "
-"set to TRUE, to embed a keyboard widget into the window. This command should "
-"implement an XEMBED plug interface and output a window XID on the standard "
-"output."
-msgstr ""
-"A orde que se executará se a chave \"embedded_keyboard_enabled\" está "
-"definida como TRUE, para incorporar un widget de teclado na xanela. Esta "
-"orde debería implementar unha interface XEMBED de conexión e debería "
-"imprimir unha xanela XID na saída estándar."
+msgid "The command that will be run, if the \"embedded_keyboard_enabled\" key is set to TRUE, to embed a keyboard widget into the window. This command should implement an XEMBED plug interface and output a window XID on the standard output."
+msgstr "A orde que se executará se a chave \"embedded_keyboard_enabled\" está definida como TRUE, para incorporar un widget de teclado na xanela. Esta orde debería implementar unha interface XEMBED de conexión e debería imprimir unha xanela XID na saída estándar."
 
 #: ../data/gnome-screensaver.schemas.in.h:18
-msgid ""
-"The command to invoke when the logout button is clicked. This command should "
-"simply log the user out without any interaction. This key has effect only if "
-"the \"logout_enable\" key is set to TRUE."
-msgstr ""
-"A orde que hai que invocar cando se preme o botón para terminar a sesión. "
-"Esta orde simplemente pecha a sesión do usuario sen ningunha interacción. "
-"Esta chave só funciona se a chave \"logout_enable\" está definida como TRUE."
+msgid "The command to invoke when the logout button is clicked. This command should simply log the user out without any interaction. This key has effect only if the \"logout_enable\" key is set to TRUE."
+msgstr "A orde que hai que invocar cando se preme o botón para terminar a sesión. Esta orde simplemente pecha a sesión do usuario sen ningunha interacción. Esta chave só funciona se a chave \"logout_enable\" está definida como TRUE."
 
 #: ../data/gnome-screensaver.schemas.in.h:19
-msgid ""
-"The number of minutes after screensaver activation before locking the screen."
-msgstr ""
-"O número de minutos despois da activación do protector de pantalla antes de "
-"que se bloquee a pantalla."
+msgid "The number of minutes after screensaver activation before locking the screen."
+msgstr "O número de minutos despois da activación do protector de pantalla antes de que se bloquee a pantalla."
 
 #: ../data/gnome-screensaver.schemas.in.h:20
-msgid ""
-"The number of minutes after the screensaver activation before a logout "
-"option will appear in unlock dialog. This key has effect only if the "
-"\"logout_enable\" key is set to TRUE."
-msgstr ""
-"O número de minutos tras a activación do protector de pantalla antes de que "
-"apareza a opción de terminar a sesión no diálogo de desbloqueo. Esta chave "
-"ten efecto só se a chave \"logout_enable\" está definida como TRUE."
+msgid "The number of minutes after the screensaver activation before a logout option will appear in unlock dialog. This key has effect only if the \"logout_enable\" key is set to TRUE."
+msgstr "O número de minutos tras a activación do protector de pantalla antes de que apareza a opción de terminar a sesión no diálogo de desbloqueo. Esta chave ten efecto só se a chave \"logout_enable\" está definida como TRUE."
 
 #: ../data/gnome-screensaver.schemas.in.h:21
-msgid ""
-"The number of minutes of inactivity before the session is considered idle."
-msgstr ""
-"O número de minutos de tempo inactivo antes de considerar a sesión como "
-"inactiva."
+msgid "The number of minutes of inactivity before the session is considered idle."
+msgstr "O número de minutos de tempo inactivo antes de considerar a sesión como inactiva."
 
 #: ../data/gnome-screensaver.schemas.in.h:22
 msgid "The number of minutes to run before changing the screensaver theme."
-msgstr ""
-"O número de minutos que se executa antes de cambiar o tema do protector de "
-"pantalla."
+msgstr "O número de minutos que se executa antes de cambiar o tema do protector de pantalla."
 
 #: ../data/gnome-screensaver.schemas.in.h:23
-msgid ""
-"The number of seconds of inactivity before signalling to power-management. "
-"This key is set and maintained by the session power-management agent."
-msgstr ""
-"O número de segundos de inactividade antes de darlle indicacións ao xestor "
-"de enerxía. Esta chave está definida e conservada polo axente de xestión de "
-"enerxía do computador."
+msgid "The number of seconds of inactivity before signalling to power-management. This key is set and maintained by the session power-management agent."
+msgstr "O número de segundos de inactividade antes de darlle indicacións ao xestor de enerxía. Esta chave está definida e conservada polo axente de xestión de enerxía do computador."
 
 #: ../data/gnome-screensaver.schemas.in.h:24
-msgid ""
-"The selection mode used by screensaver. May be \"blank-only\" to enable the "
-"screensaver without using any theme on activation, \"single\" to enable "
-"screensaver using only one theme on activation (specified in \"themes\" "
-"key), and \"random\" to enable the screensaver using a random theme on "
-"activation."
-msgstr ""
-"O modo de selección que usa o protector de pantalla. Pode ser \"blank-only\" "
-"para activar o protector sen que se use ningún tema na activación, \"single"
-"\" para activar o protector usando só un tema na activación (que se "
-"especifica na chave \"themes\" ) ou \"random\", para activar o protector "
-"usando un tema aleatorio na activación."
+msgid "The selection mode used by screensaver. May be \"blank-only\" to enable the screensaver without using any theme on activation, \"single\" to enable screensaver using only one theme on activation (specified in \"themes\" key), and \"random\" to enable the screensaver using a random theme on activation."
+msgstr "O modo de selección que usa o protector de pantalla. Pode ser \"blank-only\" para activar o protector sen que se use ningún tema na activación, \"single\" para activar o protector usando só un tema na activación (que se especifica na chave \"themes\" ) ou \"random\", para activar o protector usando un tema aleatorio na activación."
 
 #: ../data/gnome-screensaver.schemas.in.h:25
 msgid "Theme for lock dialog"
@@ -248,16 +183,8 @@ msgid "Theme to use for the lock dialog."
 msgstr "Tema que se usará para o diálogo de bloqueo."
 
 #: ../data/gnome-screensaver.schemas.in.h:27
-msgid ""
-"This key specifies the list of themes to be used by the screensaver. It's "
-"ignored when \"mode\" key is \"blank-only\", should provide the theme name "
-"when \"mode\" is \"single\", and should provide a list of themes when \"mode"
-"\" is \"random\"."
-msgstr ""
-"Esta chave especifica a lista de temas que vai usar o protector de pantalla. "
-"Ignorarase cando a chave \"mode\" sexa \"blank-only\", proporcionará o nome "
-"do tema cando \"mode\" sexa \"single\" e proporcionará a lista dos temas "
-"cando \"mode\" sexa \"random\"."
+msgid "This key specifies the list of themes to be used by the screensaver. It's ignored when \"mode\" key is \"blank-only\", should provide the theme name when \"mode\" is \"single\", and should provide a list of themes when \"mode\" is \"random\"."
+msgstr "Esta chave especifica a lista de temas que vai usar o protector de pantalla. Ignorarase cando a chave \"mode\" sexa \"blank-only\", proporcionará o nome do tema cando \"mode\" sexa \"single\" e proporcionará a lista dos temas cando \"mode\" sexa \"random\"."
 
 #: ../data/gnome-screensaver.schemas.in.h:28
 msgid "Time before locking"
@@ -314,7 +241,21 @@ msgstr "_Cambiar de usuario"
 msgid "_Unlock"
 msgstr "_Desbloquear"
 
-#. Translators: This is the name of a desktop background image that shows outer space images.
+#: ../data/lock-dialog-meego.ui.h:2
+#, no-c-format
+msgid "<span size=\"x-large\">Hi %R</span>\\nWe need your password before you can use this computer."
+msgstr "<span size=\"x-large\">Ola! %R</span>\\nÉ necesario o seu contrasinal para empregar este computador."
+
+#: ../data/lock-dialog-meego.ui.h:3
+msgid "Start"
+msgstr "Inicio"
+
+#: ../data/lock-dialog-meego.ui.h:4
+msgid "page 1"
+msgstr "paxina 1"
+
+#. Translators: This is the name of a desktop background image that shows
+#. outer space images.
 #. You might want to translate it into the equivalent words of your language
 #: ../data/images/cosmos/cosmos.xml.in.in.h:3
 #: ../savers/cosmos-slideshow.desktop.in.in.h:1
@@ -349,51 +290,51 @@ msgstr "Unha grade de cadros pop-art de cores pulsantes."
 msgid "Pop art squares"
 msgstr "Cadrados pop-art"
 
-#: ../savers/floaters.c:84
+#: ../savers/popsquares.c:49 ../savers/floaters.c:1204
+#, c-format
+msgid "%s. See --help for usage information.\n"
+msgstr "%s. Vexa --help para información de uso.\n"
+
+#: ../savers/floaters.c:88
 msgid "Show paths that images follow"
 msgstr "Mostrar os camiños que seguen as imaxes"
 
-#: ../savers/floaters.c:87
+#: ../savers/floaters.c:91
 msgid "Occasionally rotate images as they move"
 msgstr "Rotar as imaxes ocasionalmente mentres se moven"
 
-#: ../savers/floaters.c:90
+#: ../savers/floaters.c:94
 msgid "Print out frame rate and other statistics"
 msgstr "Imprimir a taxa de fotogramas e outras estatísticas"
 
-#: ../savers/floaters.c:93
+#: ../savers/floaters.c:97
 msgid "The maximum number of images to keep on screen"
 msgstr "O número máximo de imaxes que se vai manter na pantalla"
 
-#: ../savers/floaters.c:93
+#: ../savers/floaters.c:97
 msgid "MAX_IMAGES"
 msgstr "MÁX_IMAXES"
 
-#: ../savers/floaters.c:96
+#: ../savers/floaters.c:100
 msgid "The initial size and position of window"
 msgstr "O tamaño e a posición iniciais da xanela"
 
-#: ../savers/floaters.c:96
+#: ../savers/floaters.c:100
 msgid "WIDTHxHEIGHT+X+Y"
 msgstr "LARGURAxALTURA+X+Y"
 
-#: ../savers/floaters.c:99
+#: ../savers/floaters.c:103
 msgid "The source image to use"
 msgstr "A imaxe fonte que se vai usar"
 
 #. translators: the word "image" here
 #. * represents a command line argument
-#.
-#: ../savers/floaters.c:1194
+#. 
+#: ../savers/floaters.c:1198
 msgid "image - floats images around the screen"
 msgstr "imaxe - as imaxes flotan ao redor da pantalla"
 
-#: ../savers/floaters.c:1200
-#, c-format
-msgid "%s. See --help for usage information.\n"
-msgstr "%s. Vexa --help para información de uso.\n"
-
-#: ../savers/floaters.c:1209
+#: ../savers/floaters.c:1213
 #, c-format
 msgid "You must specify one image.  See --help for usage information.\n"
 msgstr "Especifique unha imaxe. Vexa --help para a información de uso.\n"
@@ -466,15 +407,11 @@ msgstr "Consultar canto tempo estivo activo o protector de pantalla"
 
 #: ../src/gnome-screensaver-command.c:68
 msgid "Tells the running screensaver process to lock the screen immediately"
-msgstr ""
-"Dille ao proceso do protector de pantalla en execución que bloquee a "
-"pantalla inmediatamente"
+msgstr "Dille ao proceso do protector de pantalla en execución que bloquee a pantalla inmediatamente"
 
 #: ../src/gnome-screensaver-command.c:70
 msgid "If the screensaver is active then switch to another graphics demo"
-msgstr ""
-"Se o protector de pantalla está activo entón cambia a outra demostración "
-"gráfica"
+msgstr "Se o protector de pantalla está activo entón cambia a outra demostración gráfica"
 
 #: ../src/gnome-screensaver-command.c:72
 msgid "Turn the screensaver on (blank the screen)"
@@ -482,22 +419,15 @@ msgstr "Activar o protector de pantalla (pór a pantalla en branco)"
 
 #: ../src/gnome-screensaver-command.c:74
 msgid "If the screensaver is active then deactivate it (un-blank the screen)"
-msgstr ""
-"Se o protector de pantalla está activo entón desactívao (ilumina a pantalla)"
+msgstr "Se o protector de pantalla está activo entón desactívao (ilumina a pantalla)"
 
 #: ../src/gnome-screensaver-command.c:76
 msgid "Poke the running screensaver to simulate user activity"
-msgstr ""
-"Enviar mensaxes ao protector de pantalla en execución para simular a "
-"actividade do usuario"
+msgstr "Enviar mensaxes ao protector de pantalla en execución para simular a actividade do usuario"
 
 #: ../src/gnome-screensaver-command.c:78
-msgid ""
-"Inhibit the screensaver from activating.  Command blocks while inhibit is "
-"active."
-msgstr ""
-"Inhibir a activación do protector de pantalla. A orde bloquéase cando está "
-"activa a inhibición."
+msgid "Inhibit the screensaver from activating.  Command blocks while inhibit is active."
+msgstr "Inhibir a activación do protector de pantalla. A orde bloquéase cando está activa a inhibición."
 
 #: ../src/gnome-screensaver-command.c:80
 msgid "The calling application that is inhibiting the screensaver"
@@ -507,7 +437,7 @@ msgstr "A aplicación que chama e que está inhibindo o protector de pantalla"
 msgid "The reason for inhibiting the screensaver"
 msgstr "A razón para inhibir o protector de pantalla"
 
-#: ../src/gnome-screensaver-command.c:84 ../src/gnome-screensaver-dialog.c:58
+#: ../src/gnome-screensaver-command.c:84 ../src/gnome-screensaver-dialog.c:59
 #: ../src/gnome-screensaver.c:56
 msgid "Version of this application"
 msgstr "Versión deste aplicativo"
@@ -545,107 +475,106 @@ msgstr "O protector de pantalla estivo activo durante %d segundos.\n"
 msgid "The screensaver is not currently active.\n"
 msgstr "O protector de pantalla non está activo actualmente\n"
 
-#: ../src/gnome-screensaver-dialog.c:56
+#: ../src/gnome-screensaver-dialog.c:57
 msgid "Show debugging output"
 msgstr "Mostrar a saída de depuración"
 
-#: ../src/gnome-screensaver-dialog.c:60
+#: ../src/gnome-screensaver-dialog.c:61
 msgid "Show the logout button"
 msgstr "Mostrar o botón para terminar a sesión"
 
-#: ../src/gnome-screensaver-dialog.c:62
+#: ../src/gnome-screensaver-dialog.c:63
 msgid "Command to invoke from the logout button"
 msgstr "A orde que hay que invocar desde o botón para terminar a sesión"
 
-#: ../src/gnome-screensaver-dialog.c:64
+#: ../src/gnome-screensaver-dialog.c:65
 msgid "Show the switch user button"
 msgstr "Mostrar o botón para cambiar de usuario"
 
-#: ../src/gnome-screensaver-dialog.c:66
+#: ../src/gnome-screensaver-dialog.c:67
 msgid "Message to show in the dialog"
 msgstr "Mensaxe para mostrar no diálogo"
 
-#: ../src/gnome-screensaver-dialog.c:66 ../src/gnome-screensaver-dialog.c:68
+#: ../src/gnome-screensaver-dialog.c:67 ../src/gnome-screensaver-dialog.c:69
 msgid "MESSAGE"
 msgstr "MENSAXE"
 
-#: ../src/gnome-screensaver-dialog.c:68
+#: ../src/gnome-screensaver-dialog.c:69
 msgid "Not used"
 msgstr "Non usada"
 
 #. login: is whacked always translate to Username:
-#: ../src/gnome-screensaver-dialog.c:178 ../src/gnome-screensaver-dialog.c:179
-#: ../src/gnome-screensaver-dialog.c:180 ../src/gs-auth-pam.c:698
+#: ../src/gnome-screensaver-dialog.c:179 ../src/gnome-screensaver-dialog.c:180
+#: ../src/gnome-screensaver-dialog.c:181 ../src/gs-auth-pam.c:698
 msgid "Username:"
 msgstr "Nome de usuario:"
 
-#: ../src/gnome-screensaver-dialog.c:181 ../src/gnome-screensaver-dialog.c:182
+#: ../src/gnome-screensaver-dialog.c:182 ../src/gnome-screensaver-dialog.c:183
 #: ../src/gs-auth-pam.c:166
 msgid "Password:"
 msgstr "Contrasinal:"
 
-#: ../src/gnome-screensaver-dialog.c:183
+#: ../src/gnome-screensaver-dialog.c:184
 msgid "You are required to change your password immediately (password aged)"
 msgstr "Debe cambiar o seu contrasinal inmediatamente (contrasinal caducado)"
 
-#: ../src/gnome-screensaver-dialog.c:184
-msgid "You are required to change your password immediately (root enforced)"
-msgstr ""
-"Debe cambiar o seu contrasinal inmediatamente (obrigado polo superusuario)"
-
 #: ../src/gnome-screensaver-dialog.c:185
+msgid "You are required to change your password immediately (root enforced)"
+msgstr "Debe cambiar o seu contrasinal inmediatamente (obrigado polo superusuario)"
+
+#: ../src/gnome-screensaver-dialog.c:186
 msgid "Your account has expired; please contact your system administrator"
 msgstr "A súa conta caducou; contacte co administrador do sistema"
 
-#: ../src/gnome-screensaver-dialog.c:186
+#: ../src/gnome-screensaver-dialog.c:187
 msgid "No password supplied"
 msgstr "Non se indicou un contrasinal"
 
-#: ../src/gnome-screensaver-dialog.c:187
+#: ../src/gnome-screensaver-dialog.c:188
 msgid "Password unchanged"
 msgstr "Non se modificou o contrasinal"
 
-#: ../src/gnome-screensaver-dialog.c:188
+#: ../src/gnome-screensaver-dialog.c:189
 msgid "Can not get username"
 msgstr "Non é posíbel obter o nome de usuario"
 
-#: ../src/gnome-screensaver-dialog.c:189
+#: ../src/gnome-screensaver-dialog.c:190
 msgid "Retype new UNIX password:"
 msgstr "Reescriba o contrasinal UNIX novo:"
 
-#: ../src/gnome-screensaver-dialog.c:190
+#: ../src/gnome-screensaver-dialog.c:191
 msgid "Enter new UNIX password:"
 msgstr "Introduza o contrasinal UNIX novo:"
 
-#: ../src/gnome-screensaver-dialog.c:191
+#: ../src/gnome-screensaver-dialog.c:192
 msgid "(current) UNIX password:"
 msgstr "Contrasinal UNIX (actual):"
 
-#: ../src/gnome-screensaver-dialog.c:192
+#: ../src/gnome-screensaver-dialog.c:193
 msgid "Error while changing NIS password."
 msgstr "Erro ao modificar o contrasinal NIS."
 
-#: ../src/gnome-screensaver-dialog.c:193
+#: ../src/gnome-screensaver-dialog.c:194
 msgid "You must choose a longer password"
 msgstr "Escolla un contrasinal máis longo"
 
-#: ../src/gnome-screensaver-dialog.c:194
+#: ../src/gnome-screensaver-dialog.c:195
 msgid "Password has been already used. Choose another."
 msgstr "O contrasinal xa foi usado. Escolla outro."
 
-#: ../src/gnome-screensaver-dialog.c:195
+#: ../src/gnome-screensaver-dialog.c:196
 msgid "You must wait longer to change your password"
 msgstr "Ten que esperar máis tempo para cambiar o contrasinal"
 
-#: ../src/gnome-screensaver-dialog.c:196
+#: ../src/gnome-screensaver-dialog.c:197
 msgid "Sorry, passwords do not match"
 msgstr "Os contrasinais non coinciden"
 
-#: ../src/gnome-screensaver-dialog.c:262
+#: ../src/gnome-screensaver-dialog.c:263
 msgid "Checking..."
 msgstr "Comprobando..."
 
-#: ../src/gnome-screensaver-dialog.c:304 ../src/gs-auth-pam.c:457
+#: ../src/gnome-screensaver-dialog.c:305 ../src/gs-auth-pam.c:457
 msgid "Authentication failed."
 msgstr "Fallou a autenticación."
 
@@ -749,15 +678,15 @@ msgstr "Non lle está permitido obter acceso neste momento."
 msgid "No longer permitted to access the system."
 msgstr "Xa non se lle permite acceder máis ao sistema."
 
-#: ../src/gs-listener-dbus.c:1851
+#: ../src/gs-listener-dbus.c:1912
 msgid "failed to register with the message bus"
 msgstr "fallo ao rexistrarse co bus de mensaxe"
 
-#: ../src/gs-listener-dbus.c:1861
+#: ../src/gs-listener-dbus.c:1922
 msgid "not connected to the message bus"
 msgstr "non está conectado ao bus de mensaxes"
 
-#: ../src/gs-listener-dbus.c:1870
+#: ../src/gs-listener-dbus.c:1931
 msgid "screensaver already running in this session"
 msgstr "xa se está executando o protector de pantalla nesta sesión"
 
