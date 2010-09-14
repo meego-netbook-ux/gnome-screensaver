@@ -239,12 +239,12 @@ msgstr "_Feloldás"
 #: ../data/lock-dialog-meego.ui.h:2
 #, no-c-format, fuzzy
 msgid "<span size=\"x-large\">Hi %R</span>\\nWe need your password before you can use this computer."
-msgstr "<span size=\"x-large\">Szia% R</span> \\ \\ nKerjuk adja meg jelszavát, mielőtt használja ezt a számítógépet."
+msgstr "<span size=\"x-large\">Udvözöljük% R</span> \\ \\ nKérjuk adja meg jelszavát, mielőtt használja ezt a számítógépet."
 
 #: ../data/lock-dialog-meego.ui.h:3
 #, fuzzy
 msgid "Start"
-msgstr "Indit"
+msgstr "Indít"
 
 #: ../data/lock-dialog-meego.ui.h:4
 #, fuzzy
