@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gnome-screensaver\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-25 16:00+0000\n"
-"PO-Revision-Date: 2010-09-14 19:29-0800\n"
+"PO-Revision-Date: 2010-09-14 19:58-0800\n"
 "Last-Translator: Anna Bergman <anna.b.bergman@gmail.com>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -119,31 +119,31 @@ msgstr "Näytönsäästäjän teeman valinta"
 
 #: ../data/gnome-screensaver.schemas.in.h:12
 msgid "Set this to TRUE to activate the screensaver when the session is idle."
-msgstr "Aseta arvoon TOSI, jos haluat·aktivoida näytönsäästäjän, kun istunto ei ole käytössä"
+msgstr "Aseta todeksi, jos haluat·aktivoida näytönsäästäjän, kun istunto ei ole käytössä"
 
 #: ../data/gnome-screensaver.schemas.in.h:13
 msgid "Set this to TRUE to allow embedding a keyboard into the window when trying to unlock. The \"keyboard_command\" key must be set with the appropriate command."
-msgstr "Aseta arvoksi TOSI, jos haluat sallia näppäimistön upottamisen ikkunaan, kun lukitusta yritetään avata. Avaimen \"keyboard_command\" arvon tulee olla asetettu sisältämään haluttu komento."
+msgstr "Aseta todeksi, jos haluat sallia näppäimistön upottamisen ikkunaan, kun lukitusta yritetään avata. Avaimen \"keyboard_command\" arvon tulee olla asetettu sisältämään haluttu komento."
 
 #: ../data/gnome-screensaver.schemas.in.h:14
 msgid "Set this to TRUE to lock the screen when the screensaver goes active."
-msgstr "Aseta arvoksi TOSI, jos haluat lukita näytön näytönsäästäjän aktivoituessa."
+msgstr "Aseta todeksi, jos haluat lukita näytön näytönsäästäjän aktivoituessa."
 
 #: ../data/gnome-screensaver.schemas.in.h:15
 msgid "Set this to TRUE to offer an option in the unlock dialog to allow logging out after a delay. The delay is specified in the \"logout_delay\" key."
-msgstr "Aseta arvoksi TOSI, jos haluat lukituksen avausikkunan näyttävä valinnan, josta käyttäjän voi kirjautua ulos järjestelmästä tietyn ajan kuluttua. Viiveen voi asettaa avaimesta \"logout_delay\"."
+msgstr "Aseta todeksi, jos haluat lukituksen avausikkunan näyttävä valinnan, josta käyttäjän voi kirjautua ulos järjestelmästä tietyn ajan kuluttua. Viiveen voi asettaa avaimesta \"logout_delay\"."
 
 #: ../data/gnome-screensaver.schemas.in.h:16
 msgid "Set this to TRUE to offer an option in the unlock dialog to switch to a different user account."
-msgstr "Aseta arvoksi TOSI, jos haluat lukituksen avausikkunan näyttävän valinnan, josta voi vaihtaa toiseksi käyttäjäksi."
+msgstr "Aseta todeksi, jos haluat lukituksen avausikkunan näyttävän valinnan, josta voi vaihtaa toiseksi käyttäjäksi."
 
 #: ../data/gnome-screensaver.schemas.in.h:17
 msgid "The command that will be run, if the \"embedded_keyboard_enabled\" key is set to TRUE, to embed a keyboard widget into the window. This command should implement an XEMBED plug interface and output a window XID on the standard output."
-msgstr "Suoritettava komento näppäimistön upottamiseksi ikkunaan, kun avaimen \"embedded_keyboard_enabled\" arvo on TOSI. Tämän komennon täytyy toteuttaa XEMBED-liitännäisrajapinta ja muodostaa ikkuna XID vakiosyötteeseen."
+msgstr "Suoritettava komento näppäimistön upottamiseksi ikkunaan, kun avaimen \"embedded_keyboard_enabled\" arvo on Tosi. Tämän komennon täytyy toteuttaa XEMBED-liitännäisrajapinta ja muodostaa ikkuna XID vakiosyötteeseen."
 
 #: ../data/gnome-screensaver.schemas.in.h:18
 msgid "The command to invoke when the logout button is clicked. This command should simply log the user out without any interaction. This key has effect only if the \"logout_enable\" key is set to TRUE."
-msgstr "Uloskirjautumispainiketta painettaessa suoritettava komento . Tämän komennon tulee kirjata käyttäjä ulos vaatimatta mitään toimenpiteitä. Avain on käytössä vain silloin, kun avain \"logout_enable\" on asetettu arvoon TRUE."
+msgstr "Uloskirjautumispainiketta painettaessa suoritettava komento . Tämän komennon tulee kirjata käyttäjä ulos vaatimatta mitään toimenpiteitä. Avain on käytössä vain silloin, kun avain \"logout_enable\" on asetettu arvoon Tosi."
 
 #: ../data/gnome-screensaver.schemas.in.h:19
 msgid "The number of minutes after screensaver activation before locking the screen."
