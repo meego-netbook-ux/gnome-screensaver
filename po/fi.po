@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gnome-screensaver\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-08-25 16:00+0000\n"
-"PO-Revision-Date: 2010-09-17 16:24-0800\n"
+"PO-Revision-Date: 2010-09-17 18:50-0800\n"
 "Last-Translator: \n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -119,7 +119,7 @@ msgstr "Näytönsäästäjän teeman valinta"
 
 #: ../data/gnome-screensaver.schemas.in.h:12
 msgid "Set this to TRUE to activate the screensaver when the session is idle."
-msgstr "Aseta todeksi, jos haluat·aktivoida näytönsäästäjän, kun istunto ei ole käytössä"
+msgstr "Aseta todeksi, jos haluat aktivoida näytönsäästäjän, kun istunto ei ole käytössä"
 
 #: ../data/gnome-screensaver.schemas.in.h:13
 msgid "Set this to TRUE to allow embedding a keyboard into the window when trying to unlock. The \"keyboard_command\" key must be set with the appropriate command."
