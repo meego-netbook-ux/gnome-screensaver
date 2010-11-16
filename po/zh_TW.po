@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-screensaver\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-26 09:23+0000\n"
-"PO-Revision-Date: 2010-10-27 23:33+0800\n"
-"Last-Translator: Wei-Lun Chao <chaoweilun@gmail.com>\n"
+"POT-Creation-Date: 2010-11-16 00:11+0000\n"
+"PO-Revision-Date: 2010-11-16 16:05+0800\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Taiwan)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +43,7 @@ msgstr "電源管理(_M)"
 
 #: ../data/gnome-screensaver-preferences.ui.h:4
 msgid "Regard the computer as _idle after:"
-msgstr "在此時間之後將電腦設為閒置(_I)"
+msgstr "在此時間之後將電腦設為閒置(_I)："
 
 #: ../data/gnome-screensaver-preferences.ui.h:5
 msgid "Screensaver Preferences"
@@ -170,7 +170,7 @@ msgstr "沒有動作後經過多少時間 (秒) 才通知電源管理。此設�
 # (pofilter) gconf: do not translate gconf attribute: "single", "themes", "random"
 #: ../data/gnome-screensaver.schemas.in.h:24
 msgid "The selection mode used by screensaver. May be \"blank-only\" to enable the screensaver without using any theme on activation, \"single\" to enable screensaver using only one theme on activation (specified in \"themes\" key), and \"random\" to enable the screensaver using a random theme on activation."
-msgstr "用於螢幕保護程式的選擇模式。可以為「blank-only」(只有空白)會啟用螢幕保護程式但不使用任何主題；「single」(單一)會啟用螢幕保護程式但只使用一種主題(在「themes」(布景主題)鍵值指定)；還有「random」(亂數)會啟用螢幕保護程式且使用亂數主題。"
+msgstr "用於螢幕保護程式的選擇模式。可以為「blank-only」(只有空白) 會啟用螢幕保護程式但不使用任何主題；「single」(單一) 會啟用螢幕保護程式但只使用一種主題 (在「themes」(布景主題) 鍵值指定)；還有「random」(亂數) 會啟用螢幕保護程式且使用亂數主題。"
 
 #: ../data/gnome-screensaver.schemas.in.h:25
 msgid "Theme for lock dialog"
